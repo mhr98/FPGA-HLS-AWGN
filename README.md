@@ -8,7 +8,9 @@ The cos, sin, and the sequar root functions were implemented usin lookup tables 
 The hardware was synthesised using Vitis HLS 2022.1, with clock 100 MHz, and the design was piplined with initiation interval (II) of 1, and with reasonable resource utlization. The tool report is also provided with the files as a reference.
 
 The main Code: **`gau_gen_v5.cpp`**
+
 Lookup tables file: **`look_up_tables.h`**
+
 Report: **`report.txt`**
 
 [1] G. E. P. Box, Mervin E. Muller "A Note on the Generation of Random Normal Deviates"
