@@ -1,7 +1,7 @@
 # HLS-based implementation of AWGN generator for FPGAs
 High-level synthesis (HLS) based implementation of additive white Gaussian noise generator (AWGN). A very light and simple hardware implementation using Vitis HLS 2022.1 software.
 
-The code can be synthesised, implemented and exported as IP block using Vitis HLS software. The IP block can be used in block based design using Vivado software, to be intgrated with other hardware blocks. The implemntation uses Box-Muller method [1] to generate two AWGN generated samples using two random integer values. the Random integers was implemented using linear feedback shift register (LSFR).
+The code can be synthesised, implemented and exported as IP block using Vitis HLS software. The IP block can be used in block based design using Vivado software, to be intgrated with other hardware blocks. The implemntation uses Box-Muller method [1] to generate two AWGN generated samples using two random integer values. The random integer function was implemented using linear feedback shift register (LSFR).
 
 The cos, sin, and the sequar root functions were implemented usin lookup tables of length 2048 that was generated and saved in h file.
 
