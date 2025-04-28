@@ -5,7 +5,7 @@ The code can be synthesised, implemented and exported as IP block using Vitis HL
 
 The cos, sin, and the sequar root functions were implemented usin lookup tables of length 2048 that was generated and saved in .h file.
 
-The hardware was synthesised using Vitis HLS 2022.1, with clock 100 MHz, and the desing was piplined with initiation interval (II) of 1, and with reasonable resource utlization. The tool report is also provided with the files as a reference.
+The hardware was synthesised using Vitis HLS 2022.1, with clock 100 MHz, and the design was piplined with initiation interval (II) of 1, and with reasonable resource utlization. The tool report is also provided with the files as a reference.
 
 The main Code: **`gau_gen_v5.cpp`**
 Lookup tables file: **`look_up_tables.h`**
